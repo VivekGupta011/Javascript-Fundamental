@@ -36,3 +36,6 @@ function createObjectUsingConstructor(Firstname,lastname){
 let obj1=new createObjectUsingConstructor("roy","arya");
 console.log(obj1.fullname());
 // Note:code a and b only in constructor function we to dont create object and return object this work they done by yourself 
+
+
+
