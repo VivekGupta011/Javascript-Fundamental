@@ -54,7 +54,7 @@ console.log(resultMap);
 const numberss = [1, 2, 3, 4, 5];
 
 const totalValue = numberss.reduce((sum, number) => sum + number);
-console.log(totalValue);
+console.log(totalValue); 
 
 
 
