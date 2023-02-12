@@ -61,15 +61,3 @@ console.log(totalValue);
 
 
 
-
-// call by reference
-var data={name:"vivek"};
-var people=[{name:"viv"},{lname:"ek"}];
-function processing(input,value){
-    var copy=[...input];
-    copy.push(value);
-    copy[copy.length-1].name="vivek gupta";
-    return copy;
-}
-var newPeople=processing(people,data);
-console.log(people,newPeople);
