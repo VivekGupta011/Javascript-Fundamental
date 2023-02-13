@@ -65,3 +65,6 @@ Promise.all(requests)
     .then(responses => responses.forEach(
         response => console.log(`${response.url}: ${response.status}`)
     ));
+ 
+
+    // https://javascript.info/promise-api for more
