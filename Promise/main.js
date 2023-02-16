@@ -45,6 +45,7 @@ function run() {
     }).finally(() => {
         console.log("completed execution");
     })
+    
 }
 run();
 
