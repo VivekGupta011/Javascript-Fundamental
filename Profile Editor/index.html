@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            padding:0px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" id="form">
+        <label>
+            First name:
+            <b id="firstNameText">Vivek</b>
+            <input id="firstNameInput" value="vivek" style="display: none;">
+        </label>
+        <label>
+            Last name:
+            <b id="lastNameText">Gupta</b>
+            <input id="lastNameInput" value="Gupta" style="display: none;">
+        </label>
+
+        <button type="submit" id="editButton">Edit Profile</button>
+        <p><i id="helloText">Hello,Vivek Gupta!</i></p>
+    </form>
+</body>
+<script src="./main.js"></script>
+
+</html>
