@@ -13,6 +13,7 @@ function handleFormSubmit(e){
 
 
         
+
         hide(firstNameInput);
         hide(lastNameInput);
         show(firstNameText);
