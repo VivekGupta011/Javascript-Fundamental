@@ -9,6 +9,7 @@ function handleFormSubmit(e){
         show(lastNameInput);
     }else{
         editButton.textContent='Edit Profile';
+        
         hide(firstNameInput);
         hide(lastNameInput);
         show(firstNameText);
