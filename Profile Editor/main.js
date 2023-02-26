@@ -11,6 +11,7 @@ function handleFormSubmit(e){
         editButton.textContent='Edit Profile';
 
 
+
         
         hide(firstNameInput);
         hide(lastNameInput);
