@@ -16,6 +16,8 @@ function handleFormSubmit(e){
     }
 }
 
+
+
 function handleFirstNameChange() {
     firstNameText.textContent = firstNameInput.value;
     helloText.textContent = (
